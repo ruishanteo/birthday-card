@@ -1,11 +1,34 @@
 import { Box, Typography } from "@mui/material";
 
+import page3 from "../Pictures/page3pic.png";
+
 export function Page3() {
   return (
     <Box align="center" variant="text" height="705px">
-      <Box height="200px"></Box>
-      <Typography variant="h5">thank you for ...</Typography>
-      <Typography mt={8}>Text</Typography>
+      <Box height="160px"></Box>
+      <Typography
+        variant="h5"
+        sx={{
+          fontFamily: "monospace",
+          fontWeight: "700",
+          fontSize: "40px",
+          letterSpacing: "5px",
+        }}
+      >
+        hap-pea birthday!
+      </Typography>
+      <Typography
+        mt={5}
+        sx={{
+          fontFamily: "monospace",
+          fontWeight: "300",
+          fontSize: "25px",
+          letterSpacing: "5px",
+        }}
+      >
+        text
+      </Typography>
+      <img src={page3} width={"400px"} />
     </Box>
   );
 }
