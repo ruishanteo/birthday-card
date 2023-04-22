@@ -1,6 +1,6 @@
 # Birthday Card
 
-This repository contains a simple birthday card application built using HTML, CSS, and JavaScript. The application displays a birthday greeting and allows users to customize the card by adding their name and selecting a background color.
+This repository contains a simple birthday card application built using ReactJS and MUI. The application displays a birthday greeting and allows users to customize the card.
 
 ## Getting Started
 
