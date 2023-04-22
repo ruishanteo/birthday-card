@@ -3,11 +3,9 @@ import { Link, useNavigate } from "react-router-dom";
 
 import {
   AppBar,
-  Avatar,
   Box,
   Button,
   Container,
-  Grid,
   IconButton,
   Menu,
   MenuItem,

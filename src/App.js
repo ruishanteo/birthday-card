@@ -44,7 +44,7 @@ const theme = createTheme({
 
 function App() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  const imageUrl = windowWidth >= 700 ? desktopImage : mobileImage;
+  const imageUrl = windowWidth >= 915 ? desktopImage : mobileImage;
   useEffect(() => {
     const handleWindowResize = () => {
       setWindowWidth(window.innerWidth);
