@@ -22,6 +22,8 @@ The birthday card application allows users to customize the card by performing t
 
 - Changing the texts: Users can replace the placeholder texts with their own.
 
+- Customise page routing: Users can modify designated page routing for different purposes.
+
 ## Contributing
 
 If you would like to contribute to the birthday card application, you can follow these steps:
@@ -51,6 +53,6 @@ git push origin my-feature-branch
 
 ## Acknowledgements
 
-- The birthday card application was inspired by various online tutorials and code examples.
+- The birthday card application uses icons from <a target="_blank" href="https://icons8.com/icon/67555/favorite">Favorite</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>.
 
 Enjoy using the birthday card application!
