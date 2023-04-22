@@ -53,6 +53,6 @@ git push origin my-feature-branch
 
 ## Acknowledgements
 
-- The birthday card application uses icons from <a target="_blank" href="https://icons8.com/icon/67555/favorite">Favorite</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>.
+- The birthday card application uses <a target="_blank" href="https://icons8.com/icon/67555/favorite">Favorite</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>.
 
 Enjoy using the birthday card application!
