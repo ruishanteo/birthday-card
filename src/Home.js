@@ -52,7 +52,7 @@ export function Home() {
         <Typography sx={{ fontFamily: "monospace" }}>
           you have reached the end
         </Typography>
-        <Button>
+        <Button component="a" href="/end">
           <CelebrationIcon
             sx={{ color: "black", fontSize: 50 }}
           ></CelebrationIcon>
