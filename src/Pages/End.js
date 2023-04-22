@@ -1,4 +1,4 @@
-import { Alert, Box, Button, Typography } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 
 export function End() {
   return (
