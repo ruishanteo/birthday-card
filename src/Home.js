@@ -10,6 +10,15 @@ export function Home() {
   return (
     <Box align="center" variant="text" height="1000px">
       <Box height="200px"></Box>
+
+      <Typography
+        mb={5}
+        variant="h2"
+        sx={{ fontFamily: "monospace", letterSpacing: 5 }}
+      >
+        HAPPY BIRTHDAY
+      </Typography>
+
       <Button component="a" href="/page1">
         <img src={page1} width={"100px"} />
       </Button>
@@ -20,8 +29,8 @@ export function Home() {
         <img src={page3} width={"100px"} />
       </Button>
 
-      <Typography variant="h4" sx={{ fontFamily: "monospace" }}>
-        Hello
+      <Typography variant="h5" sx={{ fontFamily: "monospace" }}>
+        pick one!
       </Typography>
     </Box>
   );

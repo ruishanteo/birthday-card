@@ -7,8 +7,8 @@ import { Page1 } from "./Pages/Page1.js";
 import { Page2 } from "./Pages/Page2.js";
 import { Page3 } from "./Pages/Page3.js";
 
-import desktopImage from "./Pictures/desktopImage.jpg";
-import mobileImage from "./Pictures/mobileImage.jpg";
+import desktopImage from "./Pictures/desktop-background-placeholder.jpg";
+import mobileImage from "./Pictures/mobile-background-placeholder.jpg";
 
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
