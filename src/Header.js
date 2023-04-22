@@ -57,7 +57,7 @@ export function Header() {
               textDecoration: "none",
             }}
           >
-            HELLO
+            hpbd!
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -91,7 +91,7 @@ export function Header() {
               textDecoration: "none",
             }}
           >
-            HELLO
+            hpbd!
           </Typography>
 
           <Box

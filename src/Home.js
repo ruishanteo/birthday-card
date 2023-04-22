@@ -15,7 +15,7 @@ export function Home() {
         <Typography
           mb={5}
           variant="h2"
-          sx={{ fontFamily: "monospace", letterSpacing: 5 }}
+          sx={{ fontFamily: "monospace", letterSpacing: 10, fontWeight: 700 }}
         >
           HAPPY BIRTHDAY
         </Typography>
@@ -38,7 +38,7 @@ export function Home() {
       <Box display="flex" flexDirection="row">
         <Box width="50px"></Box>
         <Box align="left">
-          <Button component="a" href="/page1">
+          <Button component="a" href="/pictures">
             <CameraRollIcon
               sx={{ color: "black", fontSize: 90 }}
             ></CameraRollIcon>
