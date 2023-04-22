@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import React, { useState } from "react";
 
 import {
   AppBar,
   Box,
-  Button,
   Container,
   IconButton,
   Menu,
@@ -19,11 +17,7 @@ import Face5Icon from "@mui/icons-material/Face5";
 import HomeIcon from "@mui/icons-material/Home";
 
 export function Header() {
-  const [anchorElNav, setAnchorElNav] = useState(null);
   const [anchorElUser, setAnchorElUser] = useState(null);
-  const [name, setName] = useState("");
-
-  const navigate = useNavigate();
 
   const handleOpenUserMenu = (event) => {
     setAnchorElUser(event.currentTarget);
