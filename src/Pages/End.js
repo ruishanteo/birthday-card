@@ -4,13 +4,31 @@ export function End() {
   return (
     <Box align="center" variant="text" height="705px">
       <Box height="200px"></Box>
-      <Typography variant="h3" mb={5} sx={{ fontFamily: "monospace" }}>
-        Text
+      <Typography
+        variant="h3"
+        mb={5}
+        sx={{
+          fontFamily: "monospace",
+          fontWeight: "700",
+          fontSize: "60px",
+          letterSpacing: "5px",
+        }}
+      >
+        Question?
       </Typography>
       <Box mt={5} justifyContent="center" display="flex" flexDirection="row">
         <Button
+          component="a"
+          href="/yes"
           variant="contained"
-          style={{ minHeight: "50px", minWidth: "150px" }}
+          sx={{
+            minHeight: "50px",
+            minWidth: "150px",
+            fontFamily: "monospace",
+            fontWeight: "500",
+            fontSize: "30px",
+            letterSpacing: "5px",
+          }}
         >
           Yes
         </Button>
@@ -18,9 +36,16 @@ export function End() {
         <Button
           variant="contained"
           onClick={() => {
-            alert("This is an error alert — check it out!");
+            alert("Why not? :((");
           }}
-          style={{ minHeight: "50px", minWidth: "150px" }}
+          sx={{
+            minHeight: "50px",
+            minWidth: "150px",
+            fontFamily: "monospace",
+            fontWeight: "500",
+            fontSize: "30px",
+            letterSpacing: "5px",
+          }}
         >
           No
         </Button>

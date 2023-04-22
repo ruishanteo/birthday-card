@@ -8,6 +8,7 @@ import { Page2 } from "./Pages/Page2.js";
 import { Page3 } from "./Pages/Page3.js";
 import { Pictures } from "./Pages/Pictures.js";
 import { End } from "./Pages/End.js";
+import { Yes } from "./Pages/Yes.js";
 
 import desktopImage from "./Pictures/desktop-background-placeholder.jpg";
 import mobileImage from "./Pictures/mobile-background-placeholder.jpg";
@@ -73,6 +74,7 @@ function App() {
               <Route path="/page3" element={<Page3 />} />
               <Route path="/pictures" element={<Pictures />} />
               <Route path="/end" element={<End />} />
+              <Route path="/yes" element={<Yes />} />
             </Routes>
           </div>
         </>
