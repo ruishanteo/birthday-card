@@ -28,7 +28,7 @@ export function Page1() {
       >
         text
       </Typography>
-      <img src={page1} width={"400px"} />
+      <img src={page1} alt={"paw"} width={"400px"} />
     </Box>
   );
 }

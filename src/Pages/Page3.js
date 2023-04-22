@@ -28,7 +28,7 @@ export function Page3() {
       >
         text
       </Typography>
-      <img src={page3} width={"400px"} />
+      <img src={page3} alt={"pea"} width={"400px"} />
     </Box>
   );
 }
