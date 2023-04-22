@@ -2,6 +2,7 @@ import { Box, Button, Typography } from "@mui/material";
 
 import CakeIcon from "@mui/icons-material/Cake";
 import CameraRollIcon from "@mui/icons-material/CameraRoll";
+import CelebrationIcon from "@mui/icons-material/Celebration";
 
 import page1 from "./Pictures/logo-placeholder.png";
 import page2 from "./Pictures/logo-placeholder.png";
@@ -10,8 +11,9 @@ import page3 from "./Pictures/logo-placeholder.png";
 export function Home() {
   return (
     <Box align="center" variant="text" height="1000px">
-      <Box height="200px"></Box>
+      <Box height="120px"></Box>
       <Box>
+        <CakeIcon sx={{ fontSize: 90, marginBottom: 2 }}></CakeIcon>
         <Typography
           mb={5}
           variant="h2"
@@ -34,7 +36,7 @@ export function Home() {
           pick one!
         </Typography>
       </Box>
-      <Box height="100px"></Box>
+      <Box height="130px"></Box>
       <Box display="flex" flexDirection="row">
         <Box width="50px"></Box>
         <Box align="left">
@@ -44,6 +46,17 @@ export function Home() {
             ></CameraRollIcon>
           </Button>
         </Box>
+      </Box>
+      <Box height="200px"></Box>
+      <Box>
+        <Typography sx={{ fontFamily: "monospace" }}>
+          you have reached the end
+        </Typography>
+        <Button>
+          <CelebrationIcon
+            sx={{ color: "black", fontSize: 50 }}
+          ></CelebrationIcon>
+        </Button>
       </Box>
     </Box>
   );
