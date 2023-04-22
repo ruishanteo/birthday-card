@@ -1,10 +1,12 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 
 export function Yes() {
   return (
     <Box align="center" variant="text" height="705px">
       <Box height="200px"></Box>
-      <Typography
+      <Button
+        component="a"
+        href="/home"
         variant="h5"
         sx={{
           minHeight: "50px",
@@ -16,7 +18,7 @@ export function Yes() {
         }}
       >
         yay!
-      </Typography>
+      </Button>
     </Box>
   );
 }
