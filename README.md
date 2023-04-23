@@ -1,4 +1,5 @@
 # Birthday Card
+View it live <a target="_blank" href="https://ruishanteo.github.io/birthday-card/">here</a>.
 
 This repository contains a simple birthday card application built using ReactJS and MUI. The application displays a birthday greeting and allows users to customize the card.
 
