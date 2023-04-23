@@ -14,7 +14,6 @@ import {
 
 import CakeIcon from "@mui/icons-material/Cake";
 import Face5Icon from "@mui/icons-material/Face5";
-import HomeIcon from "@mui/icons-material/Home";
 
 export function Header() {
   const [anchorElUser, setAnchorElUser] = useState(null);
@@ -64,7 +63,7 @@ export function Header() {
               href="/home"
               color="black"
             >
-              <HomeIcon sx={{ fontSize: 30, color: "black" }} />
+              <CakeIcon sx={{ fontSize: 40, color: "black" }} />
             </IconButton>
           </Box>
 

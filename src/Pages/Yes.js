@@ -2,7 +2,7 @@ import { Box, Button } from "@mui/material";
 
 export function Yes() {
   return (
-    <Box align="center" variant="text" height="705px">
+    <Box align="center" variant="text" minHeight="56.4vw">
       <Box height="200px"></Box>
       <Button
         component="a"
