@@ -75,6 +75,7 @@ function App() {
               <Route path="/pictures" element={<Pictures />} />
               <Route path="/end" element={<End />} />
               <Route path="/yes" element={<Yes />} />
+              <Route path="/*" element={<Home />} />
             </Routes>
           </div>
         </>
