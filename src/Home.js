@@ -23,13 +23,13 @@ export function Home() {
         </Typography>
 
         <Button component="a" href="/page1">
-          <img src={page1} alt={pg1} width={"100px"} />
+          <img src={page1} alt={"pg1"} width={"100px"} />
         </Button>
         <Button component="a" href="/page2">
-          <img src={page2} alt={pg2} width={"100px"} />
+          <img src={page2} alt={"pg2"} width={"100px"} />
         </Button>
         <Button component="a" href="/page3">
-          <img src={page3} alt={pg3} width={"100px"} />
+          <img src={page3} alt={"pg3"} width={"100px"} />
         </Button>
 
         <Typography variant="h5" sx={{ fontFamily: "monospace" }}>
