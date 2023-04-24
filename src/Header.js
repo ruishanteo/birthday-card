@@ -37,7 +37,7 @@ export function Header() {
             variant="h6"
             noWrap
             component="a"
-            href="/home"
+            href="/birthday-card/#/home"
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
@@ -60,7 +60,7 @@ export function Header() {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               component="a"
-              href="/home"
+              href="/birthday-card/#/home"
               color="black"
             >
               <CakeIcon sx={{ fontSize: 40, color: "black" }} />
@@ -71,7 +71,7 @@ export function Header() {
             variant="h5"
             noWrap
             component="a"
-            href="/home"
+            href="/birthday-card/#/home"
             sx={{
               mr: 2,
               display: { xs: "flex", md: "none" },
@@ -123,7 +123,7 @@ export function Header() {
               open={Boolean(anchorElUser)}
               onClose={handleCloseUserMenu}
             >
-              <MenuItem component="a" href="/home">
+              <MenuItem component="a" href="/birthday-card/#/home">
                 <Typography textAlign="center">Home</Typography>
               </MenuItem>
             </Menu>

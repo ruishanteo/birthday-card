@@ -22,13 +22,13 @@ export function Home() {
           HAPPY BIRTHDAY
         </Typography>
 
-        <Button component="a" href="/#/page1">
+        <Button component="a" href="/birthday-card/#/page1">
           <img src={page1} alt={"pg1"} width={"100px"} />
         </Button>
-        <Button component="a" href="/#/page2">
+        <Button component="a" href="/birthday-card/#/page2">
           <img src={page2} alt={"pg2"} width={"100px"} />
         </Button>
-        <Button component="a" href="/#/page3">
+        <Button component="a" href="/birthday-card/#/page3">
           <img src={page3} alt={"pg3"} width={"100px"} />
         </Button>
 
@@ -40,7 +40,7 @@ export function Home() {
       <Box display="flex" flexDirection="row">
         <Box width="50px"></Box>
         <Box align="left">
-          <Button component="a" href="/#/pictures">
+          <Button component="a" href="/birthday-card/#/pictures">
             <CameraRollIcon
               sx={{ color: "black", fontSize: 90 }}
             ></CameraRollIcon>
@@ -52,7 +52,7 @@ export function Home() {
         <Typography sx={{ fontFamily: "monospace" }}>
           you have reached the end
         </Typography>
-        <Button component="a" href="/#/end">
+        <Button component="a" href="/birthday-card/#/end">
           <CelebrationIcon
             sx={{ color: "black", fontSize: 50 }}
           ></CelebrationIcon>

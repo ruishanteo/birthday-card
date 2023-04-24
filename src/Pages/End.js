@@ -19,7 +19,7 @@ export function End() {
       <Box mt={5} justifyContent="center" display="flex" flexDirection="row">
         <Button
           component="a"
-          href="/#/yes"
+          href="/birthday-card/#/yes"
           variant="contained"
           sx={{
             minHeight: "50px",

@@ -6,7 +6,7 @@ export function Yes() {
       <Box height="200px"></Box>
       <Button
         component="a"
-        href="/home"
+        href="/birthday-card/#/home"
         variant="h5"
         sx={{
           minHeight: "50px",
