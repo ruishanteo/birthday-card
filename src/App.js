@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 import { Home } from "./Home.js";
 import { Header } from "./Header.js";
@@ -67,7 +67,6 @@ function App() {
           <Header />
           <div className="App" style={{ backgroundImage: `url(${imageUrl})` }}>
             <Routes>
-              <Route path="/" element={<Home />} />
               <Route path="/home" element={<Home />} />
               <Route path="/page1" element={<Page1 />} />
               <Route path="/page2" element={<Page2 />} />
