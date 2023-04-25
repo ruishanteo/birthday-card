@@ -4,7 +4,7 @@ import page3 from "../Pictures/page3pic.png";
 
 export function Page3() {
   return (
-    <Box align="center" variant="text" minHeight="56.4vw">
+    <Box align="center" variant="text" minHeight="92.5vh">
       <Box height="160px"></Box>
       <Typography
         variant="h5"

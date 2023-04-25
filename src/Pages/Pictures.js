@@ -12,7 +12,7 @@ function srcset(image, size, rows = 1, cols = 1) {
 
 export function Pictures() {
   return (
-    <Box align="center" variant="text" minHeight="56.4vw">
+    <Box align="center" variant="text" minHeight="92.5vh">
       <Box height="70px"></Box>
       <Typography variant="h4" sx={{ fontFamily: "monospace" }}>
         my favourite memories with you!

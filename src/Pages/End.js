@@ -2,7 +2,7 @@ import { Box, Button, Typography } from "@mui/material";
 
 export function End() {
   return (
-    <Box align="center" variant="text" minHeight="56.4vw">
+    <Box align="center" variant="text" minHeight="92.5vh">
       <Box height="200px"></Box>
       <Typography
         variant="h3"

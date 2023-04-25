@@ -10,7 +10,7 @@ import page3 from "./Pictures/logo-placeholder.png";
 
 export function Home() {
   return (
-    <Box align="center" variant="text" minHeight="56.4vw">
+    <Box align="center" variant="text" minHeight="92.5vh">
       <Box height="120px"></Box>
       <Box>
         <CakeIcon sx={{ fontSize: 90, marginBottom: 2 }}></CakeIcon>
